@@ -34,27 +34,7 @@ echo "9-Resources".'<br/>';
 echo "10-Null".'<br/>';
 //
 echo "3-4-2022".'<br/>';
-//Arrays In PhP
-$person=['Johan','Face','Hands','Mouth'];
-echo '<pre>';
-print_r($person);
-echo '<pr/>';
-//for counting of array Element
-echo 'Total Number of Arrays = '.count($person);
-// we can add more elements by push function
-array_push($person,'Eyes','Teeth');
-echo '<pre>';
-print_r($person);
-echo '<pr/>';
-//Associative Array
-$languages=[
-    'php'=> '1.8',
-    'java'=> '1.8',
-    'larvl'=> '1.8',
-];
-echo '<pre>';
-print_r($languages);
-echo '<pr/>';
+
 echo "4-4-2022".'<br/>';
 //Operators
 //Arithmetic Operators
@@ -70,32 +50,7 @@ else
 {
     echo "Not Matched";
 }
-// loops
-//For Loop
-echo 'With For Loop'.'<br/>';
-for($i=0;$i<=10;$i++)
-{
-    echo 'The Number is= '. $i.'<br/>';
-}
-// do-While loop
-echo '----------------'.'<br/>';
-echo 'With For  do While Loop'.'<br/>';
-$p=0;
-do
-{
-    
-    echo 'The Number is= '. $p.'<br/>'; 
-    $p++;
-}while($p<=5); 
-//
-echo '----------------'.'<br/>';
-echo 'With For While loop  '.'<br/>';
-$n=0;
-while($n<=5)
-{
-    echo 'The Number is= '. $n.'<br/>'; 
-    $n++;
-}
+
 // Switch Statement
 $message='paid';
 switch ($message) {
@@ -111,4 +66,7 @@ switch ($message) {
     default:
         echo 'Unknown Payment Status.';
 }
+// Dates & Time
+
+echo date('m/d/Y g:ia');
 ?>
