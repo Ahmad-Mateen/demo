@@ -40,17 +40,6 @@ echo "4-4-2022".'<br/>';
 //Arithmetic Operators
 $operators=["+","-","*","/"];
 print_r($operators);
-//if else statements
-$number=20;
-if($number==20)
-{
-    echo"The Given number is equal to 20.";
-}
-else
-{
-    echo "Not Matched";
-}
-
 // Switch Statement
 $message='paid';
 switch ($message) {
