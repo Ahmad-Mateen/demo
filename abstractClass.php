@@ -1,9 +1,9 @@
 <?php
 //Abstract Class
-// Implemented by using abstract keyord
+// Implemented by using abstract keyword
 // Abstract class must have a abstract method 
 // No Obj;
-// This is also called method overidding
+// This is also called method overidding 
  abstract class A{
     public $name;
     
