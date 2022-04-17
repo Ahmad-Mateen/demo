@@ -1,0 +1,13 @@
+    Super Globals Variables
+    Superglobals are special types of variables because they can be accessed from any scope.
+    The accessibility can be from any file, class, or even function without the implementation of any special code segments.
+    Superglobal variables are inbuilt and predefined
+     // These are the super Globals variables
+     $GLOBALS.
+1) $_SERVER.
+2) $_REQUEST.
+3) $_POST.
+4) $_GET.
+5) $_FILES.
+6) $_ENV.
+7) $_COOKIE.
