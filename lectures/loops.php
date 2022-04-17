@@ -19,14 +19,35 @@ do
     
     echo 'The Number is= '. $p.'<br/>'; 
     $p++;
-}while($p<=5);
+}while($p<=4);
 // For Loop     
 //loops through a block of code a specified number of times
-for($i=0;$i<=10;$i++)
+for($i=0;$i<=5;$i++)
 {
     echo 'The Number is= '. $i.'<br/>';
 }
 // ForEach Loop     
 //loops through a block of code for each element in an array
+$color=[
+    'Red',
+    'Green',
+    'Blue',
+];
+
+foreach ($color as $value) {
+    echo  $value.'<br>';  
+  }
+$age=[
+    'Bill'=>'20',
+    'Steve'=>'22',
+    'Johan'=>'34',
+];
+
+foreach($age as $key=>$val)
+{
+    echo $key.' = '.$val.'<br>';
+}
+
+
 
 ?>
